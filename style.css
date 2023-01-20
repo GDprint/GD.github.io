@@ -74,7 +74,7 @@ html{
     text-transform: uppercase;
 } 
 .slider-area{
-    background: url(img/Happy.jpg);
+    background: url(img/img-2.jpg);
     -webkit-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
@@ -90,12 +90,12 @@ html{
 }
 .slider-area:before{
     content: '';
+    background: rgba(0,0,0,0.3);
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
-    
     z-index: -1;
 }
 .slider-text{
@@ -108,9 +108,9 @@ html{
 .slider-text #golden{
     font-size: 95px;
     font-weight: bold;
-    text-shadow: 0px 0px 8px #000;
+    color: red;
+    text-shadow: 0px 2px 25px #000;
     font-family: 'Audiowide', cursive; 
-    
 }
 
 .slider-text #info{
@@ -251,7 +251,7 @@ single-service img{
     background-image: url(img/cont.jpg);
     background-attachment: fixed;
     -webkit-background-size: cover;
-    background-size: cover;
+    height: auto;
     background-position: center center;
     z-index: 1;
     text-align: center;
@@ -263,7 +263,7 @@ single-service img{
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: auto;
     background: rgba(0,0,0,0.4);
     z-index: -1;
 }
@@ -281,18 +281,6 @@ single-service img{
     margin-top: 25px;
     border-radius: 15px;
     text-transform: uppercase;
-}
-.single-work img{
-    width: 100%;
-    height: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0px 10px 10px #8B8B8B;
-    flex-wrap: wrap;
-}
-.single-work{
-    margin-bottom: 30px;
 }
 .portfolio-area .section-pading{
     padding-bottom: 30px;
