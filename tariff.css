@@ -26,12 +26,13 @@
 .card-body{
     display: inline-block;
     list-style-type: none;
+    background-color: #fff;
 }
 .card-body h3{
-	background-color: red;
+	background-color: goldenrod;
 	padding: 8px 10px;
 	text-align: center;
-	color: #fff;
+	color: #000;
 	border-radius: 5px;
 	display: flex;
     font-weight: bold;
